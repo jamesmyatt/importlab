@@ -23,10 +23,10 @@ import os
 import sys
 from importlib.metadata import version
 
-from importlab import environment
-from importlab import graph
-from importlab import output
-from importlab import utils
+from . import environment
+from . import graph
+from . import output
+from . import utils
 
 
 def parse_args():

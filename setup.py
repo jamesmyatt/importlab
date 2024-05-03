@@ -45,7 +45,9 @@ setup(
     python_requires=REQUIRES_PYTHON,
     url=URL,
     packages=PACKAGES,
-    scripts=['bin/importlab'],
+    entry_points={
+        'console_scripts': ['importlab=importlab.__main__:main'],
+    },
     install_requires=REQUIRED,
     include_package_data=True,
     license='Apache 2.0',
