@@ -31,7 +31,7 @@ To check out and install the latest source code
 
     git clone https://github.com/google/importlab.git
     cd importlab
-    python setup.py install
+    python -m pip install .
 
 Usage
 -----
