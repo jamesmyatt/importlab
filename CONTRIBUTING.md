@@ -29,15 +29,15 @@ To release to PyPI:
    $ python3 -m venv .venv_release
    $ source .venv_release/bin/activate
    ```
-1. Make sure that `wheel` and `twine` are installed:
+1. Make sure that `build`, `wheel` and `twine` are installed:
    ```console
-   $ pip install wheel twine
+   $ pip install build wheel twine
    ```
 1. Navigate into the top-level `importlab` directory and build a source
    distribution and a wheel:
    ```console
    $ cd importlab
-   $ python3 setup.py sdist bdist_wheel
+   $ python3 -m build
    ```
    The build command puts the distributions in a `dist` subdirectory and also
    creates `build` and `importlab.egginfo` subdirectories as side effects.
