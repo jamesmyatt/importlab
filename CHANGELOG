@@ -1,3 +1,7 @@
+Version 0.8.1 (TBC)
+* Change script into entry point.
+* Avoid deprecated setup.py commands.
+
 Version 0.8 (2022-09-22)
 * Add --version to bin importlab.
 * Use ImportStatement.source to impove import resolution.
